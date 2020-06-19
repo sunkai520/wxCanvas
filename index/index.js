@@ -21,17 +21,16 @@ Page({
     })*/
     
    
-    canvas.drawImage(DEFAULT_FORWORD_COVER,20, y, 260, 297);
+    canvas.drawImage(DEFAULT_FORWORD_COVER,0, y, 305, 392);
     canvas.setFontSize(20)
     canvas.fillText('Hello', 0, 20)
     canvas.fillText('MINA', 100, 100)
     canvas.draw(false,()=>{
       wx.canvasToTempFilePath({
         quality: 1,
-        width: 300,
-        height: y,
-        destHeight: y * 3,
-        destWidth: 900,
+        
+        destHeight: 240,
+        destWidth: 320,
         x: 0,
         y: 0,
         canvasId: 'poster',

@@ -1,11 +1,10 @@
 .canvas {
-  width: 305px;
-  height: 305px;
+  
   background-color: #fff;
 }
-.place-order-canvas {
+/*.place-order-canvas {
   position: absolute;
   bottom: 0;
   left: 0;
   transform: translate3d(-9999rpx, 0, 0);
-}
+}*/
