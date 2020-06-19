@@ -1,0 +1,7 @@
+<view class="page-body">
+  <view class="page-body-wrapper">
+   <image src="{{img}}"></image>
+  </view>
+  <button bindtap="setImg">生成图片</button>
+</view>
+ <canvas class="place-order-canvas" canvas-id="poster" style="width:300px;height:392px"></canvas>
